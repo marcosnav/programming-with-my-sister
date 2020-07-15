@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <title>Calendario</title>
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      color: #454545;
+    }
+
+    header {
+      border-bottom: 1px solid #CDCDCD;
+      display: flex;
+      padding: 15px;
+      justify-content: space-between;
+    }
+
+    #logo {
+      height: 42px;
+      width: auto;
+    }
+
+    #evento-poster {
+      height: auto;
+      width: 90px;
+    }
+
+    button {
+      background: #286efa;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img id="logo" src="logo.png" alt="Calendar Logo" />
+    <button>Crear Evento</button>
+  </header>
+
+  <div>
+    <h2>Próximos Eventos</h2>
+    <div>
+      <img id="evento-poster" src="https://images-na.ssl-images-amazon.com/images/I/81iGR0D8apL.jpg" alt="BTS">
+      <h4>BTS - Gira Mundial - Mexico City</h4>
+      <time>Agosto 21, 2020 - 21:00hrs</time>
+    </div>
+  </div>
+</body>
+</html>
