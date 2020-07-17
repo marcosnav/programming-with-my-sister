@@ -9,6 +9,7 @@
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
       color: #454545;
     }
 
@@ -24,9 +25,33 @@
       width: auto;
     }
 
+    #proximos-eventos-titulo {
+      font-size: 1.2rem;
+      margin: 1.72rem 0;
+    }
+
+    #evento {
+      display: flex;
+    }
+
     #evento-poster {
       height: auto;
+      border-radius: 3px;
       width: 90px;
+    }
+
+    #evento-info {
+      margin-left: 12px;
+      line-height: 1rem;
+    }
+
+    #evento-info h4 {
+      margin: 0;
+      margin-bottom: 0.6rem;
+    }
+
+    #evento-info time {
+      color: #ABABAB;
     }
 
     button {
@@ -45,11 +70,13 @@
   </header>
 
   <div>
-    <h2>Próximos Eventos</h2>
-    <div>
+    <h2 id="proximos-eventos-titulo">Próximos Eventos</h2>
+    <div id="evento">
       <img id="evento-poster" src="https://images-na.ssl-images-amazon.com/images/I/81iGR0D8apL.jpg" alt="BTS">
-      <h4>BTS - Gira Mundial - Mexico City</h4>
-      <time>Agosto 21, 2020 - 21:00hrs</time>
+      <div id="evento-info">
+        <h4>BTS - Gira Mundial - Mexico City</h4>
+        <time>Agosto 21, 2020 - 21:00hrs</time>
+      </div>
     </div>
   </div>
 </body>
