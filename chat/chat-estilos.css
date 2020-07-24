@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #454545;
+}
+
+header {
+  align-items: center;
+  border-bottom: 1px solid #CDCDCD;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grupo-header {
+  align-items: center;
+  display: flex;
+}
+
+#logo {
+  height: 42px;
+  width: auto;
+}
+
+#app-nombre {
+  font-size: 1.44rem;
+}
+
+#agregar-usuario-btn,
+#ver-mas-btn {
+  background: transparent;
+  background-size: cover;
+  border: none;
+  padding: 0;
+  height: 42px;
+  width: 42px;
+}
+
+#agregar-usuario-btn {
+  background-image: url("img/user-icon.png");
+}
+
+#ver-mas-btn {
+  background-image: url("img/ellipsis.png");
+}

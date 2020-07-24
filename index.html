@@ -4,98 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilosleccion.css">
   <title>Calendario</title>
-
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 16px;
-      color: #454545;
-    }
-
-    header {
-      border-bottom: 1px solid #CDCDCD;
-      display: flex;
-      padding: 15px;
-      justify-content: space-between;
-    }
-
-    #logo {
-      height: 42px;
-      width: auto;
-    }
-
-    #proximos-eventos-titulo {
-      font-size: 1.2rem;
-      margin: 1.72rem 0;
-    }
-
-    .evento {
-      display: flex;
-      margin-bottom: 20px; 
-    }
-
-    .evento-poster {
-      height: auto;
-      border-radius: 3px;
-      width: 90px;
-    }
-
-    .evento-info {
-      margin-left: 12px;
-      line-height: 1rem;
-    }
-
-    .evento-info h4 {
-      margin: 0;
-      margin-bottom: 0.6rem;
-    }
-
-    .evento-info time {
-      color: #ABABAB;
-    }
-
-    button {
-      background: #286efa;
-      border: none;
-      border-radius: 4px;
-      color: white;
-      padding: 10px 15px;
-    }
-
-    #contenido-principal {
-      display: flex;
-      justify-content: space-between;
-    }  
-
-    #calendario {
-      border: 1px solid #CDCDCD;
-      margin: 1.72rem 0;
-      padding: 30px;
-      width: 500px;
-    }
-
-    #calendario h4 {
-      text-align: center;
-    }
-
-    #tabla-calendario {
-      font-size: 0.8rem;
-      width: 100%;
-    }
-
-    #tabla-calendario tr {
-      display: flex;
-      justify-content: space-between;
-      line-height: 1.72rem;
-    }
-
-    #tabla-calendario th,
-    #tabla-calendario td {
-      text-align: center;
-      width: 100%;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -103,7 +13,8 @@
     <button>Crear Evento</button>
   </header>
 
-  <div id="contenido-principal">
+  <div>
+    <div id="contenido-principal">
     <div id="proximos-eventos">
       <h2 id="proximos-eventos-titulo">Próximos Eventos</h2>
       <div class="evento">
@@ -128,7 +39,7 @@
         </div>
       </div>
     </div>
-  
+
     <div id="calendario">
       <h4>Agosto 2020</h4>
       <table id="tabla-calendario">
@@ -159,12 +70,12 @@
         </thead>
         <tbody>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="otro-mes">26</td>
+            <td class="otro-mes">27</td>
+            <td class="otro-mes">28</td>
+            <td class="otro-mes">29</td>
+            <td class="otro-mes">30</td>
+            <td class="otro-mes">31</td>
             <td>1</td>
           </tr>
           <tr>
@@ -176,9 +87,44 @@
             <td>7</td>
             <td>8</td>
           </tr>
+          <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>            
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td> 
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td> 
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>31</td> 
+            <td class="otro-mes">1</td>
+            <td class="otro-mes">2</td>
+            <td class="otro-mes">3</td>
+            <td class="otro-mes">4</td>
+            <td class="otro-mes">5</td> 
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 </body>
-</html>
