@@ -19,5 +19,58 @@
       <button id="ver-mas-btn"></button>
     </div>
   </header>
+<div id="chat">
+  <div id="users">
+    <div class="personas p1">
+      <div class="conexion"></div>
+    </div>
+    <div class="personas p2">
+      <div class="conexion"></div>
+    </div>
+    <div class="personas p3">
+      <div class="conexion"></div>
+    </div>
+    <div class="personas p4">
+      <div class="conexion"></div>
+    </div>
+    <div class="personas p5">
+      <div class="conexion"></div>
+    </div>
+    <div class="personas p6">
+      <div class="conexion"></div>
+    </div>
+    <div class="personas p7">
+      <div class="conexion"></div>
+    </div>
+    <div class="personas p8">
+      <div class="conexion"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var tony = document.querySelector('.personas.p1');
+  var tonyConexion = tony.querySelector('.conexion');
+
+  setTimeout(function() {
+    tonyConexion.classList.add('conexion-nula');
+  }, 4 * 1000);
+
+  setTimeout(function() {
+    tonyConexion.classList.remove('conexion-nula');
+  }, 8 * 1000);
+
+  /* CON LOOPS - PARA TODOS
+  var pers = document.querySelectorAll('.personas');
+  
+  setTimeout(function() {
+    for (let i = 0; i < pers.length; i++) {
+      var cc = pers[i].querySelector('.conexion');
+      cc.classList.add('conexion-nula');
+    }
+  }, 4 * 1000);
+  */
+</script>
+
 </body>
 </html>
