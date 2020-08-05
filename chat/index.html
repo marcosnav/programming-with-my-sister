@@ -19,58 +19,90 @@
       <button id="ver-mas-btn"></button>
     </div>
   </header>
-<div id="chat">
-  <div id="users">
-    <div class="personas p1">
-      <div class="conexion"></div>
+  <div id="chat">
+    <div id="users">
+      <div class="personas p1">
+        <div class="conexion"></div>
+      </div>
+      <div class="personas p2">
+        <div class="conexion"></div>
+      </div>
+      <div class="personas p3">
+        <div class="conexion"></div>
+      </div>
+      <div class="personas p4">
+        <div class="conexion"></div>
+      </div>
+      <div class="personas p5">
+        <div class="conexion"></div>
+      </div>
+      <div class="personas p6">
+        <div class="conexion"></div>
+      </div>
+      <div class="personas p7">
+        <div class="conexion"></div>
+      </div>
+      <div class="personas p8">
+        <div class="conexion"></div>
+      </div>
     </div>
-    <div class="personas p2">
-      <div class="conexion"></div>
-    </div>
-    <div class="personas p3">
-      <div class="conexion"></div>
-    </div>
-    <div class="personas p4">
-      <div class="conexion"></div>
-    </div>
-    <div class="personas p5">
-      <div class="conexion"></div>
-    </div>
-    <div class="personas p6">
-      <div class="conexion"></div>
-    </div>
-    <div class="personas p7">
-      <div class="conexion"></div>
-    </div>
-    <div class="personas p8">
-      <div class="conexion"></div>
+    <div id="mensajes">
+      <div class="mensaje">
+        <p class="mensaje-texto">
+          Hola, estoy practicando  TE AMO AGRORIS
+        </p>
+        <div class="info-mensaje">
+          <div class="mensaje-imagen p1"></div>
+          <time>5 min ago</time>
+        </div>
+      </div>
+
+      <div class="mensaje">
+        <p class="mensaje-texto">
+          Que bueno, quiero quesadillas con chorizo y papas a la fransuaa
+        </p>
+        <div class="info-mensaje">
+          <div class="mensaje-imagen p4"></div>
+          <time>3 min ago</time>
+        </div>
+      </div>
+
+      <div class="mensaje">
+        <p class="mensaje-texto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit
+        </p>
+        <div class="info-mensaje">
+          <div class="mensaje-imagen p8"></div>
+          <time>1 min ago</time>
+        </div>
+      </div>
+
+      <input class="escribir-mensaje" type="text" placeholder="Escribe tu mensaje cholito" >
     </div>
   </div>
-</div>
 
-<script>
-  var tony = document.querySelector('.personas.p1');
-  var tonyConexion = tony.querySelector('.conexion');
-
-  setTimeout(function() {
-    tonyConexion.classList.add('conexion-nula');
-  }, 4 * 1000);
-
-  setTimeout(function() {
-    tonyConexion.classList.remove('conexion-nula');
-  }, 8 * 1000);
-
-  /* CON LOOPS - PARA TODOS
-  var pers = document.querySelectorAll('.personas');
+  <script>
+    var tony = document.querySelector('.personas.p1');
+    var tonyConexion = tony.querySelector('.conexion');
   
-  setTimeout(function() {
-    for (let i = 0; i < pers.length; i++) {
-      var cc = pers[i].querySelector('.conexion');
-      cc.classList.add('conexion-nula');
-    }
-  }, 4 * 1000);
-  */
-</script>
-
+    setTimeout(function() {
+      tonyConexion.classList.add('conexion-nula');
+    }, 4 * 1000);
+  
+    setTimeout(function() {
+      tonyConexion.classList.remove('conexion-nula');
+    }, 8 * 1000);
+  
+    /* CON LOOPS - PARA TODOS
+    var pers = document.querySelectorAll('.personas');
+    
+    setTimeout(function() {
+      for (let i = 0; i < pers.length; i++) {
+        var cc = pers[i].querySelector('.conexion');
+        cc.classList.add('conexion-nula');
+      }
+    }, 4 * 1000);
+    */
+  </script>
 </body>
 </html>

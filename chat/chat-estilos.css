@@ -45,7 +45,6 @@ header {
 
 #chat{
   display: flex;
-  justify-content: space-between;
 }
 
 #users {
@@ -110,18 +109,46 @@ header {
   background-image: url("https://i1.wp.com/annyeongoppa.com/wp-content/uploads/2019/02/IMG_20190204_123227.jpg?fit=720%2C480&ssl=1");
 }
 
-/* #conversation {
-  background-image: url("https://st-listas.20minutos.es/images/2012-08/341000/3679168_640px.jpg?1345751949");
-  display: block;
-  border-radius: 50%;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-size: 90%;
+#mensajes {
   display: flex;
+  flex-direction: column;
 }
 
-#botones {
-  background-color: transparent;
+.mensaje {
   display: flex;
-  height: 100%;
-} */
+  flex-direction: column;
+  padding: 15px; 
+}
+
+.mensaje-imagen {
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.mensaje-texto {
+  border: .6px solid #fcfafa;
+  box-shadow: 5px 5px 0px #f5f0f0;
+  padding: 5px;
+  margin: 1.72rem 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.info-mensaje {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-mensaje time {
+  color: #ABABAB;
+  font-size: 12px;
+}
+
+.escribir-mensaje {
+  border: none;
+}
