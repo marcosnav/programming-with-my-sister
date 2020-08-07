@@ -149,6 +149,22 @@ header {
   font-size: 12px;
 }
 
+/*
+top     - arriba
+bottom  - abajo
+right   - derecha
+left    - izquierda
+*/
+
 .escribir-mensaje {
+  height: 50px;
   border: none;
+  border-top: 1px solid #CDCDCD;
+  outline: none;
+  padding: 11px;
+  transition: all 0.5s ease;
+}
+
+.escribir-mensaje:focus {
+  border-top: 3px solid #00d13b;
 }
