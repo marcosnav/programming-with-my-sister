@@ -91,6 +91,26 @@
 
   <!-- Importamos la liibreria Moment.JS para manejar fechas mas facil -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+
+  <!-- Importamos Firebase JS SDK, un servicio de terceros para nuestra base de datos -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+
+  <script>
+    // Configuracion de Firebase
+    var firebaseConfig = {
+      apiKey: "AIzaSyCglpAh_Yb2-K0LcNFlnEQe1NL3Q0YFCs0",
+      authDomain: "citlachat.firebaseapp.com",
+      databaseURL: "https://citlachat.firebaseio.com",
+      projectId: "citlachat",
+      storageBucket: "citlachat.appspot.com",
+      messagingSenderId: "380543668617",
+      appId: "1:380543668617:web:3ccb1bf04b3877c4681158"
+    };
+    // Inicializar firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
   <script src="chat.js"></script>
 </body>
 </html>
