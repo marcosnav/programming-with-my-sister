@@ -91,35 +91,14 @@ mensajesDB.on('value', function(objetoValor) {
   }
 });
 
-// const db = firebase.database();
 
-// const citlaEnDB = db.ref('citla');
+/**
+ * Peticiones y tratado de imagenes
+ */
 
-// citlaEnDB.on('value', function(objetoValor) {
-//   console.log(objetoValor.val());
-// });
-
-// setTimeout(function() {
-
-//   citlaEnDB.set({
-//     nombre: 'Citlali',
-//     apellido: 'Navarro',
-//     email: 'citla.navarro@gmail.com',
-//     hijos: 4,
-//     gatos: 2,
-//   });
-
-// }, 5 * 1000);
-
-// var testListener = firebase.database().ref('message-test');
-// testListener.on('value', function(snapshot) {
-//   console.log(snapshot.val());
-// });
-
-// setTimeout(function() {
-//   firebase.database().ref('message-test').set({
-//     username: 'bananas',
-//     email: 'm@marcosn.com',
-//   });
-// }, 5000);
-
+fetch('https://api.unsplash.com/photos/random?count=1&client_id=sRXr4ngr_n1uQFq6jhdlpn1o74C10-XoMH_u1yYIVHg&query=animal')
+  .then(function(respuestaDeUnsplash) {
+    respuestaDeUnsplash.json().then(function(listaDeImg) {
+      console.log(listaDeImg[0].urls.small);
+    });
+  });
