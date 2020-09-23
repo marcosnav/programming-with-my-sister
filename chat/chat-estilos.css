@@ -53,6 +53,7 @@ header {
 }
 
 .personas {
+  background-color: #DBDBDB;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -77,38 +78,6 @@ header {
   background: #cdcdcd;
 }
 
-.p1 {
-  background-image: url("https://img.huffingtonpost.com/asset/5c8b35cf2000009e047067d8.jpeg");
-}
-
-.p2 {
-  background-image: url("https://pm1.narvii.com/6094/7817c45a5ce4fedadf515b0622a1cf27205afd7e_hq.jpg");
-}
-
-.p3 {
-  background-image: url("https://www.cabroworld.com/wp-content/uploads/2019/04/famosos-caras-mix-mezcladas-15.jpg");
-}
-
-.p4 {
-  background-image: url("https://i.pinimg.com/564x/4e/b3/f7/4eb3f7fe5216576fbc26ec189139211a.jpg");
-}
-
-.p5 {
-  background-image: url("https://us.hola.com/images/0256-0dcb0ecf18d5-e44c1c05b2ff-1000/vertical-480/jim-carrey-divertidas-caras03.jpg");
-}
-
-.p6 {
-  background-image: url("https://img.huffingtonpost.com/asset/5c8b35cf2000009e047067d8.jpeg?ops=scalefit_630_noupscale");
-}
-
-.p7 {
-  background-image: url("https://ath2.unileverservices.com/wp-content/uploads/sites/5/2016/12/flequillos-3-300x300.jpg");
-}
-
-.p8 {
-  background-image: url("https://i1.wp.com/annyeongoppa.com/wp-content/uploads/2019/02/IMG_20190204_123227.jpg?fit=720%2C480&ssl=1");
-}
-
 #mensajes {
   display: flex;
   flex-direction: column;
@@ -121,6 +90,7 @@ header {
 }
 
 .mensaje-imagen {
+  background-color: #DBDBDB;
   background-size: cover;
   background-position: center;
   border-radius: 50%;

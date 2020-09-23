@@ -49,7 +49,7 @@ function postearMensaje(mensajeDeDB, fechaDelMensaje) {
   
   // Crear imagen del usuario <div class="mensaje-imagen p8" >
   const imagenUsuarioHTML = document.createElement('div');
-  imagenUsuarioHTML.classList.add('mensaje-imagen', 'p8');
+  imagenUsuarioHTML.classList.add('mensaje-imagen');
 
   // Crear etiqueta de hora <time>
   const fechaMensajeHTML = document.createElement('time');
@@ -95,10 +95,11 @@ mensajesDB.on('value', function(objetoValor) {
 /**
  * Peticiones y tratado de imagenes
  */
+function obtenerImagenDeUsuario() {
+  axios.get('https://api.unsplash.com/photos/random?count=1&client_id=sRXr4ngr_n1uQFq6jhdlpn1o74C10-XoMH_u1yYIVHg&query=animal')
+  .then(res => {
+    res.data[0].urls.small
+  })
+}
 
-fetch('https://api.unsplash.com/photos/random?count=1&client_id=sRXr4ngr_n1uQFq6jhdlpn1o74C10-XoMH_u1yYIVHg&query=animal')
-  .then(function(respuestaDeUnsplash) {
-    respuestaDeUnsplash.json().then(function(listaDeImg) {
-      console.log(listaDeImg[0].urls.small);
-    });
-  });
+obtenerImagenDeUsuario();
