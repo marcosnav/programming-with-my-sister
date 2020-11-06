@@ -1,0 +1,75 @@
+body{
+  background-color: darkgray;
+}
+
+.contenedor{
+ 
+  display: flex;
+  margin: 200px;
+  margin-top: 100px;
+  width: 1000px;
+
+}
+
+#fila1{
+  display: block;
+  width: 33%;
+  
+
+}
+
+#fila2{
+  display: block;
+  width: 33%;
+
+}
+
+#fila3{
+  display: block;
+  width: 33%;;
+}
+
+.cuadro{
+  margin: 10px;
+  color: aqua;
+  border: solid white;
+  width: 315px;
+  height: 315px;
+}
+
+#c1{
+  background-color: rgb(159, 80, 233);
+}
+
+#c2{
+  background-color: rgb(230, 118, 44);
+}
+
+
+#c3{
+  background-color: rgb(214, 97, 160);
+}
+
+#c4{
+  background-color: rgb(75, 78, 202);
+}
+
+#c5{
+  background-color: rgb(77, 184, 100);
+}
+
+#c6{
+  background-color: rgb(158, 240, 35);
+}
+
+#c7{
+  background-color: rgb(99, 114, 143);
+}
+
+#c8{
+  background-color: rgb(156, 62, 101);
+}
+
+#c9{
+  background-color: rgb(35, 240, 240);
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.columnas{
+  display: flex; 
+}
+
+.columna {
+  height: 100vh; 
+}
+
+#colum1{
+  background-color: lightcoral;
+  width: 25%;
+}
+
+#colum2{
+  background-color: lightgreen;
+  width: 25%;
+}
+
+#colum3{
+  background-color: lightseagreen;
+  width: 25%;
+}
+
+#colum4{
+  background-color: lightslategrey;
+  width: 25%;
+}
