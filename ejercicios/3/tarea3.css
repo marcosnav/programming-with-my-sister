@@ -1,0 +1,78 @@
+body {
+  background-color: antiquewhite;
+  
+  
+  }
+  
+  
+  header {
+    color: rgb(45, 45, 117);
+    display:flex;
+    justify-content: center;
+    
+  }
+  
+  .container {
+    margin: 15px;
+    display: flex;
+    flex-direction: inline-block;
+    
+  }
+  
+  .compra {
+    margin: 25px;
+    align-items: flex-end;
+    
+  }
+  
+  .mercancia {
+  margin: 30px;
+  height: 400px;
+  width: 200px;
+  background-color: white;  
+  border-color: transparent;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  
+  }
+  
+  
+  .informacion {
+    
+    margin: 15px;
+    
+  }
+  
+  .precio {
+    margin: 25px;
+     
+    
+  }
+  
+  .compra{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .Total {
+    padding:5px;
+    margin: 20px;
+  }
+  
+  .usuario {
+    padding: 5px;
+    margin: 25px;
+  }
+  
+  
+  .alcarrito{
+    background-color: lightblue;
+    margin-bottom: 35px;
+    
+    
+  }
+  
