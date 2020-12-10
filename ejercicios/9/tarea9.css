@@ -1,0 +1,41 @@
+body {
+  background-color: cadetblue;
+}
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  margin: none;
+}
+
+.controles {
+  text-align: center;
+}
+
+.circulo {
+  background-color: rgb(23, 23, 156);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.circulo2 {
+  background-color: rgb(23, 156, 56);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.btn {
+  background:  darkgrey;
+  border: 5px;
+  padding: 12px;
+}
+
+#btn2 {
+  background:  darkgrey;
+  border: 5px;
+  padding: 12px;
+}
