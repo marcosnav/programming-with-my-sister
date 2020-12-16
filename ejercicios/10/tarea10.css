@@ -1,0 +1,79 @@
+body {
+  background-color: cadetblue;
+  
+  
+}
+
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  margin: none;
+}
+
+.controles{
+  text-align: center;
+}
+
+.circulo {
+  background-color: rgb(23, 23, 156);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.circulo2 {
+  background-color: rgb(57, 197, 92);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.circulo3 {
+  background-color: rgb(185, 31, 31);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.circulo4 {
+  background-color: rgb(236, 238, 96);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.circulo5 {
+  background-color: rgb(230, 31, 153);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.circulo6 {
+  background-color: floralwhite;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.btn {
+  background:  darkgrey;
+  border: 5px;
+  padding: 12px;
+  
+  
+}
+
+#btn2 {
+  background:  darkgrey;
+  border: 5px;
+  padding: 12px;
+  
+}
